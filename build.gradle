@@ -33,6 +33,9 @@ dependencies {
     runtimeOnly 'com.h2database:h2'
     runtimeOnly 'org.mariadb.jdbc:mariadb-java-client'
 
+    //validation
+    implementation 'org.springframework.boot:spring-boot-starter-validation'
+
     //code
     annotationProcessor 'org.projectlombok:lombok'
 
